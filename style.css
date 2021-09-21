@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bmi {
+    background-color: grey;
+    height: 400px;
+    width: 400px;
+    transform: translate(100px, 70px);
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px 0px 10px 50px;
+
+}
+
+#kg, #meters {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color:seagreen;
+}
+
+#kg {
+    transform: translate(100px, 30px);
+}
+
+#meters {
+    transform: translate(-85px, 150px);
+}
+
+#btn {
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-40px, 100px);
+}
+
+#btn:hover {
+    background-color: grey;
+    border: 1px solid white;
+    color: white;
+}
+
+#showtext {
+    transform: translate(30px, 40px);
+
+}
